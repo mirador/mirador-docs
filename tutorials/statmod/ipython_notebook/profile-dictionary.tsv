@@ -1,0 +1,10 @@
+OUTCOME	category	1:DIE;2:LIVE
+ASCITES	category	1:yes;2:no
+PROTIME	float	0,100
+ALBUMIN	float	2.1,6.4
+SPIDERS	category	1:yes;2:no
+VARICES	category	1:yes;2:no
+BILIRUBIN	float	0.3,8
+FATIGUE	category	1:yes;2:no
+HISTOLOGY	category	1:yes;2:no
+MALAISE	category	1:yes;2:no
