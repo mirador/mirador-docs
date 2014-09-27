@@ -1701,11 +1701,11 @@ This notebook goes over the use of Mirador as the first step in statistical mode
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>After opening the Hepatitis dataset, Mirador should look something like this:</p>
-<p><img src="images/main.png"></p>
+<p><img src="main.png"></p>
 <p>From the main interface, you can inspect the plots between any pair of variables and set ranges dynamically and see the effect on the plots. Here, we are interested in finding variables we can use to model a predictive model for Hepatitis outcome. In order to find these variable, we can rank all the variables in the dataset by their correlation with the OUTCOME variable. If we hover the mouse over the variable name in the row corresponding to OUTCOME, we will se the title changing to &quot;Sort OUTCOME&quot;. If we now click the title, the columns will be re-arranged in decreasing order of correlation strength with OUTCOME from left to right:</p>
-<p><img src="images/sort.png"></p>
+<p><img src="sort.png"></p>
 <p>If we open the profile view, by clicking the profile icon inside the OUTCOME variable, we will see a graph representing all the variables that are associated with OUTCOME at the current P-value, in the order that resulted from the sorting we just did. We can hover the dots to reveal the name of the variables, and clicking on them will take us back to the plot between the selected variable and outcome in the main screen. By inspecting this profile, we can start deciding which variables could be included as explanatory factors for OUTCOME, and select a range of contiguous variables using the tooltips right underneath the profile:</p>
-<p><img src="images/profile.png"></p>
+<p><img src="profile.png"></p>
 <p>(Tip: we cannot remove variables directly from the profile, but what we can do is to can click on them in the profile, close the corresponding column in the main view, and then return to the profile and do the selection.)</p>
 <p>One we have defined our set of explanatory variables, we can use the &quot;Export selection&quot; button to save the data for these variables. The currently set ranges will also be applied in the export, e.g.: if the range AGE variable is set as 20-50, only the patients within that age range will be included in the export. Mirador will not only save the data, but also the variable names, types, and configuration (P-value, etc.) </p>
 </div>
